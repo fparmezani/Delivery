@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
     "recursive-readdir": "^2.2.3",
     "restify": "^11.1.0"

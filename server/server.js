@@ -42,7 +42,7 @@ server.use(function nocache(req, res, next) {
 
 // Cria a rota pública dentro do server para as imagens do cardapio
 server.get(
-  "./public/images/*",
+  "/public/images/*",
   restify.plugins.serveStatic({
     directory: __dirname,
   })

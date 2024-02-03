@@ -1,8 +1,8 @@
+const path = require("path");
 global.config = require(path.join(__dirname, "config")).get("dev");
 
 const restify = require("restify");
 const recursiveReaddir = require("recursive-readdir");
-const path = require("path");
 
 // Inicia o servidor
 const server = restify.createServer({

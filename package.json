@@ -2,6 +2,7 @@
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
+    "node-schema-object": "^3.3.4",
     "recursive-readdir": "^2.2.3",
     "restify": "^11.1.0"
   }

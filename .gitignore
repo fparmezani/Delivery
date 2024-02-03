@@ -12,8 +12,6 @@ dist/
 .env
 .env.local
 
-server/config.js
-
 server/public/images/
 
 

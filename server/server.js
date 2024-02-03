@@ -1,5 +1,5 @@
 const path = require("path");
-global.config = require(path.join(__dirname, "config")).get("dev");
+global.config = require(path.join(__dirname, "config.js")).get("dev");
 
 const restify = require("restify");
 const recursiveReaddir = require("recursive-readdir");

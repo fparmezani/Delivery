@@ -36,7 +36,7 @@ const controllers = () => {
       let preco = req.params.preco;
 
       var ComandoSQL = await readCommandSql.retornaStringSql(
-        "obterPorProdutoId",
+        "salvarOpcionalPorProdutoId",
         "opcional"
       );
       var result = await db.Query(ComandoSQL, {

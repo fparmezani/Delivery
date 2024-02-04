@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@vercel/node",
-      "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build"
+      "use": "@vercel/node"
     }
   ],
   "outputDirectory": "."

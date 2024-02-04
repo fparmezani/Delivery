@@ -4,11 +4,11 @@ var config = {
     port: process.env.APP_PORT || 3000,
     ambiente: "DEV",
     database: {
-      host: process.env.HOST, // Variável de ambiente para o endereço do servidor
-      port: process.env.PORT, // Variável de ambiente para a porta
-      user: process.env.USERNAME, // Variável de ambiente para o nome de usuário
-      password: process.env.PASSWORD, // Variável de ambiente para a senha
-      database: process.env.DATABASE_NAME, // Variável de ambiente para o nome do banco de dados
+      host: "delivery-feparmezani.a.aivencloud.com", // Variável de ambiente para o endereço do servidor
+      port: "23663", // Variável de ambiente para a porta
+      user: "avnadmin", // Variável de ambiente para o nome de usuário
+      password: "AVNS_k6EotLv50qRf5k-Lwvj", // Variável de ambiente para a senha
+      database: "pizzaria", // Variável de ambiente para o nome do banco de dados
     },
   },
 };

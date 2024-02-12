@@ -3,7 +3,7 @@
   "builds": [{ "src": "server/package.json", "use": "@vercel/node" }],
   "routes": [{ "src": "/", "dest": "server" }],
   "functions": {
-    "api/index.js": {
+    "index.js": {
       "runtime": "@vercel/node"
     }
   }

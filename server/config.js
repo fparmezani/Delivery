@@ -12,7 +12,6 @@ var config = {
     },
   },
 };
-
 exports.get = function get(ambiente) {
   if (ambiente.toLowerCase() === "dev") {
     return config.dev;

@@ -3,13 +3,6 @@ var config = {
     url: "http://localhost/",
     port: 3000,
     ambiente: "DEV",
-    // database: {
-    //   host: "localhost",
-    //   port: 3306,
-    //   user: "root",
-    //   password: "SorayaBeatriz@45",
-    //   database: "pizzaria",
-    // },
     database: {
       host: "delivery-feparmezani.a.aivencloud.com", // Variável de ambiente para o endereço do servidor
       port: "23663", // Variável de ambiente para a porta

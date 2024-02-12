@@ -2,9 +2,5 @@
   "version": 2,
   "builds": [{ "src": "server/package.json", "use": "@vercel/node" }],
   "routes": [{ "src": "/", "dest": "server" }],
-  "functions": {
-    "api/index.js": {
-      "runtime": "@vercel/node"
-    }
-  }
+  "functions": { "api/index.js": { "runtime": "@vercel/node" } }
 }

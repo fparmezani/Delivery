@@ -2,9 +2,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   app.event.init(true);
   cardapio.event.init();
 });
-
 var cardapio = {};
-
 cardapio.event = {
   init: () => {
     cardapio.method.obterDadosEmpresa();

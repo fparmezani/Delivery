@@ -12,7 +12,6 @@ cardapio.event = {
     cardapio.method.obterItensCarrinho();
   },
 };
-
 cardapio.method = {
   // obtem os dados da empresa
   obterDadosEmpresa: () => {

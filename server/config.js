@@ -13,7 +13,7 @@ var config = {
   },
   prod: {
     url: "http://www.menumagic.com.br",
-    port: 21034,
+    port: 21026,
     ambiente: "PROD",
     database: {
       host: "delivery-feparmezani.a.aivencloud.com", // Variável de ambiente para o endereço do servidor

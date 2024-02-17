@@ -1,7 +1,7 @@
 var config = {
   dev: {
     url: "http://localhost/",
-    port: 3000,
+    port: 21026,
     ambiente: "DEV",
     database: {
       host: "delivery-feparmezani.a.aivencloud.com", // Variável de ambiente para o endereço do servidor

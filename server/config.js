@@ -12,7 +12,7 @@ var config = {
     },
   },
   prod: {
-    url: "http://www.menumagic.com.br",
+    url: "https://www.menumagic.com.br",
     port: 21026,
     ambiente: "PROD",
     database: {

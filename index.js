@@ -7,7 +7,7 @@ server.get(
     default: "index.html",
   })
 );
-server.listen(config.port || 21026, () => {
+server.listen(21026, () => {
   console.log(
     `AMBIENTE: ${config.ambiente} URL: ${config.url} PORTA: ${config.port}`
   );
